@@ -1,6 +1,7 @@
 package com.curdboard.projectboard.controller;
 
 import org.hibernate.persister.entity.AbstractEntityPersister;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +15,7 @@ import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.transaction.annotation.Transactional;
 
+@Disabled("Spring Data Rest 통합테스트는 불필요하므로 제외시킴")
 @DisplayName("Data Rest api Test")
 @Transactional
 @AutoConfigureMockMvc
